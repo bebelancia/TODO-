@@ -1,0 +1,93 @@
+html {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    height: 100%;
+}
+
+.main{
+    justify-items: center;
+    align-items: center;
+}
+
+.form{
+    width: 40%;
+    margin: 0 auto;
+    background-color: #FAF7F7;
+    padding: 10px;
+    box-shadow: rgba(100, 100, 100, 0.3) 0px 7px 29px 0px;
+}
+
+.form h2{
+    color: #6A6A6A;
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.form-input{
+    padding: 10px;
+}
+
+.form-input input{
+    height: 25px;
+    width: 90%;
+    font-size: large;
+}
+
+.form-input label{
+    font-weight: 700;
+    display: block;
+    padding-bottom: 5px;
+    color: #6A6A6A;
+}
+
+.btn-redondo{
+    border-radius: 100vh;
+    height: 35px;
+    width: 35px;
+    border:  0;
+    font-weight: 700;
+    font-size: 25px;
+
+}
+
+.btn-azul{
+    background-color: #0457D3;
+    color:white;
+}
+
+.btn-azul:hover {
+    background-color: #055CDE;
+    cursor: pointer;
+}
+
+.card{
+    width: 60%;
+    margin: 0 auto;
+    padding: 10px;
+    margin-top: 50px;
+}
+
+.card h3{
+    color: #6A6A6A;
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.lista-tarefas{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.lista-tarefas li{
+    padding: 10px;
+    margin: 2px 0;
+    font-size: 1.2em;
+}
+
+.lista-tarefas li:nth-child(odd){
+    background-color: #FAF7F7;
+}
+
+.lista-tarefas li:nth-child(even){
+    background-color: #DCD6D6;
+}
