@@ -46,3 +46,18 @@ function atualizarListaTarefas() {
 function limparListaTarefas () {
     listaTarefas.innerHTML =""
 }
+
+function marcarResolvido (id) {
+    let index = tarefas.findIndex(item => item.id === id)
+    tarefa[index].resolvido = !taredas[index].resolvido
+}
+
+function checkboxClick(el) {
+    const item = el.target.value
+
+    if (item != null && item != undefined) {
+        marcarResolvido(parseInt(item))
+
+    }
+}
+
